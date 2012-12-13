@@ -1,0 +1,10 @@
+#traffic_kitten {
+	background-color: white;
+	overflow: hidden;
+	float: right;
+}
+
+
+#traffic_kitten p {
+	display: none;
+}

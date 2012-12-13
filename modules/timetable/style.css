@@ -1,0 +1,60 @@
+.timetableHead {
+	background: #2371C7;
+	font-family: 'Open Sans';
+	font-weight: bolder;
+	padding: 5px 0;
+}
+.timetableTable {
+	font-size: 150%;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	font-family: 'Open Sans';
+	border-spacing: 0;
+	text-align: left;
+}
+.timetableTable td {
+	padding: 5px 10px;
+}
+.timetableTable tr:nth-child(even) td {
+	background:  #171A19;
+}
+.timetableTable tr:nth-child(odd) td {
+	background:  #253449;
+}
+
+.timetableTable .time {
+	width: 85px;
+}
+.timetableTable tr td.train {
+	width: 75px;
+}
+.timetableTable tr td.train.sbahn {
+	background-image: url(s.gif);
+	background-repeat: no-repeat;
+	background-size: auto 60%;
+	background-position: left center;
+	text-align: center;
+}
+.timetableTable tr td.train.tram {
+	background-image: url(tram.gif);
+	background-repeat: no-repeat;
+	background-size: auto 40%;
+	background-position: left center;
+	text-align: right;
+}
+
+.timetableTable .ris {
+	width: 75px;
+}
+.timetableTable .ris.ontime {
+	color: #0a0;
+}
+.timetableTable .ris.delayed {
+	background-color: #800;
+}
+.timetableTable .goal
+{
+	overflow: hidden;
+	white-space: nowrap;
+}

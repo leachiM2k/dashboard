@@ -1,0 +1,10 @@
+{
+	"name": "facts",
+	"html": null,
+	"css": [
+	],
+	"js": [
+		"https://apis.google.com/js/client.js",
+		"script.js"
+	]
+}

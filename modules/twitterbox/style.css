@@ -1,0 +1,47 @@
+#twitterbox
+{
+	padding: 10px;
+	font-family: 'Francois One', cursive;
+	font-size: 125%;
+	text-align: left;
+}
+#twitterbox .tweet
+{
+	line-height: 30px;
+	border-bottom: 1px solid #335;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#twitterbox .tweetFrom
+{
+	color: #aaf;
+}
+#twitterbox .found
+{
+	color: #FFF99A;
+}
+
+.newTweet {
+	height: 100%;
+}
+.newText
+{
+	/* font-size: 200%; */
+	width: 78%;
+	text-align: justify;
+	height: 92%;
+	display: inline-table;
+}
+.newMeta
+{
+	float: left;
+	width: 20%;
+	text-align: right;
+	padding-right: 15px;
+	padding-top: 15px;	
+}
+.newProfileIcon
+{
+	margin-top: 20px;
+}

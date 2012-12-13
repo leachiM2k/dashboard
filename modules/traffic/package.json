@@ -1,0 +1,11 @@
+{
+	"name": "",
+	"html": null,
+	"css": [
+		"style.css"
+	],
+	"js": [
+		"http://www.google.com/jsapi?key=AIzaSyDR5XTVfuXhz-tOofcy0VDaLVr-d-6hWkE",
+		"script.js"
+	]
+}
