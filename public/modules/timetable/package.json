@@ -5,7 +5,7 @@
 		"style.css"
 	],
 	"js": [
-		"http://www.google.com/jsapi?key=AIzaSyDR5XTVfuXhz-tOofcy0VDaLVr-d-6hWkE",
+		"https://gitcdn.xyz/repo/pbock/fahrplan/master/dist/fahrplan.min.js",
 		"script.js"
 	]
 }
