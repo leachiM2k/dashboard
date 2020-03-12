@@ -5,7 +5,6 @@ var loadHelper = {
 			return;
 		}
 		if (el.type === 'javascript') {
-			console.log('*************************** el.url', el.url);
 			dynamicallyLoadScript(el.url, {
 					id: el.id,
 					onload: function onLoad() {
@@ -93,7 +92,6 @@ class BoxesManager {
 	}
 
 	changeRandom() {
-		console.log('*************************** this.boxes', this.boxes);
 		try {
 			if (this.boxes.length !== 0) {
 				var to = this.boxes.shift(); // boxes.splice(Number.random(0, boxes.length -1), 1)[0];

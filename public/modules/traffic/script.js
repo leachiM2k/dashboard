@@ -7,15 +7,18 @@ class Traffic {
 		this.subboxManager = null;
 
 		this.mapBox = null;
-		this.kittenBox = null;
-		this.kitten = [];
 
 		this.subboxManager = new window.SubboxManager();
 		this.subboxManager.setPrefix('traffic');
 		this.mapBox = this.subboxManager.addNewBox('map');
 		this.mapBox.injectTo(this.container);
 
-		google.load("maps", "3", {"callback" : this.initializeTrafficMap.bind(this), "other_params": "key=xxxxxxxxxxxxxxxxxxxxxx&sensor=false"});
+		var key = (new URL(location.href)).searchParams.get('google_key');
+
+		google.load("maps", "3", {
+			"callback": this.initializeTrafficMap.bind(this),
+			"other_params": "key=" + key + "&sensor=false"
+		});
 	}
 
 	initializeTrafficMap() {

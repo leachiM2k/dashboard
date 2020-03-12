@@ -2,7 +2,7 @@ var twitterboxScript = new (new Class({
 
 	searchFor: 'ZDF',
 	scrollTimer: null,
-	url: "http://search.twitter.com/search.json",
+	url: "https://search.twitter.com/search.json",
 
 	initialize: function() {
 		Locale.use('de-DE');
